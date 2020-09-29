@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseParking"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pes University"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_weight="1"
+        android:background="#00695C"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"
+        android:onClick="pesu"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forum Mall"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_weight="1"
+        android:background="#00897B"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PESIT"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_weight="1"
+        android:background="#26A69A"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"/>
+</LinearLayout>
