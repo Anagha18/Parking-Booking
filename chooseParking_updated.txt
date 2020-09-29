@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/pesu"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:text="@string/pesu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="-15dp"
+        android:layout_marginBottom="-15dp"
+        android:background="#00695C"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"
+        android:layout_weight="1"
+        />
+
+
+    <Button
+        android:id="@+id/forum"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+
+        android:text="@string/forum"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:layout_margin="-100dp"
+        android:background="#00897B"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/pesit"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="@string/pesit"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints"
+
+        android:background="#26A69A"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"
+        android:layout_weight="1"/>
+
+   <!-- <Button
+        android:id="@+id/pb"
+        android:layout_width="95dp"
+        android:layout_height="384dp"
+        android:text="@string/pb"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="352dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/ud"
+        android:layout_marginTop="-15dp"
+
+        android:background="#0097A7"
+        android:fontFamily="fantasy"
+        android:textSize="18sp"
+        android:textColor="#F3E5F5"
+        />-->
+
+
+
+    <!--<Button
+        android:id="@+id/ud"
+        android:layout_width="1100dp"
+        android:layout_height="334dp"
+        android:layout_marginRight="-10dp"
+        android:layout_toLeftOf="@id/pesu"
+        android:text="@string/ud"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="-9dp"
+        android:background="#006064"
+        android:fontFamily="fantasy"
+        android:textSize="20sp"
+        android:textColor="#F3E5F5"/>-->
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="75dp"
+              android:orientation="horizontal">
+
+              <Button
+                  android:layout_width="200dp"
+                  android:layout_height="75dp"
+                  android:layout_weight="1"
+                  android:background="#000000"
+                  android:fontFamily="fantasy"
+                  android:text="@string/ud"
+                  android:textColor="#F3E5F5"
+                  android:textSize="20sp"
+                  android:layout_marginRight="1dp"
+                  />
+
+              <Button
+                  android:layout_width="200dp"
+                  android:layout_height="75dp"
+                  android:layout_weight="1"
+                  android:background="#000000"
+                  android:fontFamily="fantasy"
+                  android:text="@string/pb"
+                  android:textColor="#F3E5F5"
+                  android:textSize="18sp"
+
+
+
+               />
+
+
+                 </LinearLayout>
+
+
+</LinearLayout>
