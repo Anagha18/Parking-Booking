@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseParking">
+
+    <Button
+        android:id="@+id/pesit"
+        android:layout_width="325dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/forum"
+        android:text="@string/pesit"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:background="#26A69A"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"/>
+
+    <Button
+        android:id="@+id/forum"
+        android:layout_width="325dp"
+        android:layout_height="223dp"
+        android:layout_below="@id/pesu"
+        android:layout_alignParentRight="true"
+
+        android:text="@string/forum"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:layout_margin="-100dp"
+        android:background="#00897B"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5" />
+
+    <Button
+        android:id="@+id/pb"
+        android:layout_width="95dp"
+        android:layout_height="384dp"
+        android:text="@string/pb"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="352dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/ud"
+        android:layout_marginTop="-15dp"
+
+        android:background="#0097A7"
+        android:fontFamily="fantasy"
+        android:textSize="18sp"
+        android:textColor="#F3E5F5"
+        />
+
+    <Button
+        android:id="@+id/pesu"
+        android:layout_width="325dp"
+        android:layout_height="225dp"
+        android:text="@string/pesu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="-15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-15dp"
+        android:background="#00695C"
+        android:fontFamily="fantasy"
+        android:textSize="25sp"
+        android:textColor="#F3E5F5"
+        />
+
+    <Button
+        android:id="@+id/ud"
+        android:layout_width="1100dp"
+        android:layout_height="334dp"
+        android:layout_marginRight="-10dp"
+        android:layout_toLeftOf="@id/pesu"
+        android:text="@string/ud"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="-9dp"
+        android:background="#006064"
+        android:fontFamily="fantasy"
+        android:textSize="20sp"
+        android:textColor="#F3E5F5"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+
+</RelativeLayout>
